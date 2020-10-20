@@ -1,7 +1,7 @@
 /**
-   An example showing how to put ESP8266 into Deep-sleep mode
+   
 
-  
+   Deep Sleep ESP example with Dallas temperature sensor and data feed to syslog server 
    You need to connect the D0 pin with RST to wake up the ESP8266
    You need to disconnect the D0 -- RST pin to be able to upload the program to ESP   ! 
    Data pin of Dallas Temperature Sensor is connected to D2 (aka GPIO4)
