@@ -21,10 +21,16 @@
 #define SYSLOG_PORT 1514
 
 // This device info
+// name it so you can grep if from syslog feed easily
+// I used both hostname and app_name for simple search 
+// grep ESP8266-SOLAR /var/log/syslog
+// Oct 20 19:11:04 ESP8266-SOLAR DALLAS-001 ESP temperature: 5
+
 #define DEVICE_HOSTNAME "ESP8266-SOLAR"
 #define APP_NAME "DALLAS-001"
 
 // GPIO 4 == D2 on phys. board 
+// for Dallas temperature sensor
 #define ONE_WIRE_BUS 4   
 
 // WiFi credentials.
